@@ -1,0 +1,1 @@
+An app for saving notes on youtube courses, that allows you to make flashcards and save etc.

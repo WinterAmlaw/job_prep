@@ -1,0 +1,1 @@
+A bot that you can train to be aware of your project stacks
