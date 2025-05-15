@@ -14,3 +14,21 @@ Daily routine weekday:
   -2hrs working on projects
   -2hrs working on lessons(start by rotating linux, and nodejs)
   -2hrs school(rotate between web dev and SQL)
+
+
+  update:
+
+  -30min DSA
+  -1.5hr project
+  -1hr school
+  -1hr udemy
+
+  -3hrs work
+
+  -2hrs music
+
+  -1hr reading
+
+  -1hr working out
+
+    total: 11hrs
