@@ -1,0 +1,151 @@
+🔧 Hard Skills You’ll Need in 2035
+
+| Skill                                              | Why It Matters                                                                      |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **System Design**                                  | Architecting resilient, scalable, modular systems                                   |
+| **Prompt Engineering & AI Orchestration**          | Directing AI agents to generate, test, refactor code effectively                    |
+| **Event-Driven Backend** (e.g. serverless, queues) | Modern apps will use async flows over monolithic APIs                               |
+| **Database Mastery** (SQL + vector DBs)            | You'll still need to model data well — only now with hybrid AI+relational use cases |
+| **Secure Auth & Policy Enforcement**               | Security and compliance will be non-negotiable                                      |
+| **CI/CD & Infra as Code**                          | GitHub Actions, Terraform, Docker/K8s (even if abstracted by platform)              |
+| **WebAssembly (WASM)**                             | More devs will build cross-language frontend modules                                |
+| **Edge Computing + CDN Optimization**              | Running logic closer to users will be a performance staple                          |
+| **DX Tooling**                                     | Knowing how to build smooth CLI tools, plugins, and devkits will matter more        |
+| **Accessibility & Internationalization (i18n)**    | Especially with global AI apps, UX has to be inclusive                              |
+
+
+🚫 What Will Likely Fade Out or Be Abstracted
+
+| Going Away                  | Why                                                                                         |
+| --------------------------- | ------------------------------------------------------------------------------------------- |
+| Writing CRUD from scratch   | AI + BaaS (Supabase, Xata, Firebase) will handle this                                       |
+| Monolithic SPAs             | Replaced by islands architecture, SSR, and edge rendering                                   |
+| CSS mastery (as we know it) | CSS-in-JS, AI-styled components, and utility-first tools will dominate                      |
+| Heavy frontend frameworks   | React, Vue, etc., will evolve or get abstracted (e.g., Qwik, Marko, or even AI-defined UIs) |
+| Memorizing syntax           | IDEs and LLMs will autocomplete 90% of this                                                 |
+
+
+✅ Your Survival Plan
+
+Learn to design systems → Think in diagrams, not just files.
+
+Practice directing AI tools → Refine prompts, chain tools, debug outputs.
+
+Master interoperability → APIs, webhooks, AI model endpoints, DBs.
+
+Build with users in mind → Business goals, usability, and ethical tech matter more than ever.
+
+Stay tool-agnostic, principle-strong → Frameworks change, foundations don't.
+
+
+✅ What You Will Need to Know About Languages
+
+| Area                                                      | Why It's Still Critical                                                                                                                 |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantics**                                             | You must know *what the code means*, even if you don’t write every line. Otherwise, you can’t debug or guide AI output effectively.     |
+| **Language Concepts** (e.g. closures, types, async/await) | These are universal across modern languages and crucial for reasoning about systems.                                                    |
+| **Reading code fluently**                                 | AI will write it, but *you* will read, review, refactor, and QA it.                                                                     |
+| **Debugging and error tracing**                           | No AI is perfect. You need to know what’s going wrong and *why*.                                                                        |
+| **Memory and performance implications**                   | Especially in frontend, backend, and AI orchestration logic (e.g., knowing the cost of `map` vs `reduce`, or when a function is async). |
+| **Security-conscious coding**                             | SQL injection, XSS, access control bugs — AI can introduce vulnerabilities. You must catch them.                                        |
+
+
+🔤 Practicing in the AI Era: How You Should Shift Your Approach
+
+Instead of rote memorization or solving toy problems endlessly, focus on:
+🧠 1. Project-based Learning
+
+    Build real apps, then:
+
+        Ask AI to scaffold features
+
+        Analyze and rewrite parts
+
+        Try to refactor or extend AI-generated code
+
+        Break it on purpose and fix it
+
+This teaches pattern recognition, decision-making, and architectural thinking.
+🧪 2. Debugging Drills
+
+    Grab AI-generated snippets and intentionally inject bugs.
+
+    Practice debugging using browser devtools, Node, or logging strategies.
+
+    Bonus: explain bugs out loud like you're teaching someone — forces deeper understanding.
+
+💬 3. Code Review Simulation
+
+    Take open-source projects or AI-generated PRs and review them:
+
+        What’s redundant?
+
+        Where’s the risk?
+
+        What could be more modular or performant?
+
+This builds your intuition — the most irreplaceable skill in a world of code generators.
+🏗️ 4. Systems Over Syntax
+
+Learn languages by building a mental model of how things fit:
+
+    In JavaScript, understand:
+
+        Event loop
+
+        Promises vs async/await
+
+        Hoisting and closures
+
+        Functional patterns (map/filter/reduce)
+
+    In SQL, know:
+
+        Joins, indexes, window functions
+
+        Transaction safety and ACID principles
+
+        Query optimization and EXPLAIN plans
+
+    In Python, focus on:
+
+        Data modeling
+
+        Libraries (e.g. pandas, FastAPI)
+
+        Decorators and context managers
+
+Languages will keep evolving, but these core mechanics are timeless.
+TL;DR: You Still Need to Practice — But Smarter
+
+✅ Focus on:
+
+    Concepts over syntax
+
+    Debugging, reviewing, and refactoring
+
+    Building real things
+
+    Practicing critical thinking, not just typing
+
+❌ Don’t focus on:
+
+    Memorizing syntax
+
+    Doing Leetcode drills daily unless prepping for interviews
+
+    Obsessing over framework trivia
+
+
+
+🎯 Focus Areas to Master in Chrome DevTools
+
+| Panel           | What to Learn                                                    |
+| --------------- | ---------------------------------------------------------------- |
+| **Elements**    | DOM inspection, box model, pseudo-classes, live-editing CSS      |
+| **Console**     | Logging, breakpoints, using `$0`, understanding stack traces     |
+| **Sources**     | Breakpoints, stepping through JS, watching variables             |
+| **Network**     | Understanding HTTP requests, headers, CORS, payloads             |
+| **Performance** | Timeline, flame charts, frame rendering, identifying slow paints |
+| **Memory**      | Detecting leaks, using snapshots                                 |
+| **Lighthouse**  | Auditing SEO, accessibility, and performance                     |
